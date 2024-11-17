@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forum", "forum\forum.csproj", "{A67DDC95-F06F-437E-99DB-7432EE4D4EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_Sheet", "Excel_Sheet\Excel_Sheet.csproj", "{D541F098-6CF6-4250-AB02-6015AAE14FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67DDC95-F06F-437E-99DB-7432EE4D4EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67DDC95-F06F-437E-99DB-7432EE4D4EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67DDC95-F06F-437E-99DB-7432EE4D4EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67DDC95-F06F-437E-99DB-7432EE4D4EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D541F098-6CF6-4250-AB02-6015AAE14FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D541F098-6CF6-4250-AB02-6015AAE14FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D541F098-6CF6-4250-AB02-6015AAE14FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D541F098-6CF6-4250-AB02-6015AAE14FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
