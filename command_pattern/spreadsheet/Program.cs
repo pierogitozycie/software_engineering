@@ -25,6 +25,9 @@ namespace Spreadsheet_CommandPattern
 
             Console.WriteLine("Wartość {0}: {1}", a1.Name, a1.Value);
             Console.WriteLine("Wartość {0}: {1}", b1.Name, b1.Value);
+
+            Cell b2 = arkusz1.AddCell("B2", 1);
+            Console.WriteLine("Wartość {0}: {1}", b2.Name, b2.Value);
         
 
         }

@@ -36,9 +36,9 @@ namespace Spreadsheet_CommandPattern
             _history.AddAndExecute(new Insert(_cells[name], value));
         }
 
-        public Cell AddCell(string name)
+        public Cell AddCell(string name, int value  = 0)
         {
-            Cell cell = new Cell(name, 0);
+            Cell cell = new Cell(name, value);
             _cells.Add(name, cell);
             return cell;
         }
